@@ -10,7 +10,7 @@
     "publisher": "PotatoMvM",
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/Swordstone/popfile-language-support-vscode.git"
+        "url": "https://gitlab.com/Swordstone/popfile-language-support-vscode"
     },
     "categories": [
         "Programming Languages"

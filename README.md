@@ -4,4 +4,4 @@ This extension adds basic syntax highlighting for the Valve popfile formatting t
 
 Here's a preview of what it might look like if you were to use a dark theme:
 
-![Preview](/images/preview.png)
+![Preview](https://i.imgur.com/jBo0rX1.png)
