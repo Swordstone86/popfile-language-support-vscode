@@ -1,0 +1,25 @@
+{
+    "name": "popfile-language-support",
+    "displayName": "Popfile Language Support",
+    "description": "Syntax highlighting for the Valve popfile format.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "popfile",
+            "aliases": ["Popfile", "popfile"],
+            "extensions": [".pop"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "popfile",
+            "scopeName": "source.pop",
+            "path": "./syntaxes/popfile.tmLanguage.json"
+        }]
+    }
+}
