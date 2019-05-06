@@ -2,14 +2,15 @@
     "name": "popfile-language-support",
     "displayName": "Popfile Language Support",
     "description": "Syntax highlighting for the Valve popfile format.",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "icon": "LanguagePop_color_128x.png",
     "engines": {
         "vscode": "^1.33.0"
     },
     "publisher": "PotatoMvM",
     "repository": {
         "type": "git",
-        "url": "git://gitlab.com/Swordstone/popfile-language-support-vscode.git"
+        "url": "https://gitlab.com/Swordstone/popfile-language-support-vscode.git"
     },
     "categories": [
         "Programming Languages"
