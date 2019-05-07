@@ -39,7 +39,7 @@
 				},
 				{
 					"name": "keyword.token.popfile",
-					"match": "\\b(?i)(startingcurrency|respawnwavetime|canbotsattackwhileinspawnroom|advanced|(#)base)\\b"
+					"match": "\\b(?i)(startingcurrency|respawnwavetime|canbotsattackwhileinspawnroom|advanced)\\b"
 				}
 			]
 		},
@@ -67,11 +67,11 @@
 				},
 				{
 					"name": "support.class.spawner",
-					"match": "\\b(?i)(name|speed|where|target|template|action|totalcount|maxactive|spawncount|waitbeforestarting|waitbetweenspawns|waitforallspawned|waitforalldead|support|totalcurrency|objective|initialcooldown|beginatwave|runforthismanywaves|startingpathtracknode|cooldowntime|desiredcount|waitwhendone|checkpoint)\\b"
+					"match": "\\b(?i)(name|speed|where|target|template|action|totalcount|maxactive|spawncount|waitbeforestarting|waitbetweenspawns|waitbetweenspawnsafterdeath|waitwhendone|wavedonewhen|waitforallspawned|waitforalldead|support|totalcurrency|objective|initialcooldown|beginatwave|runforthismanywaves|startingpathtracknode|cooldowntime|donewarningsound|eventpopfile|fixedrespawnwavetime|startwavewarningsound|tag|formationsize|waitwhendone|checkpoint|aggressive)\\b"
 				},
 				{
 					"name": "keyword.token.popfile",
-					"match": "\\b(?i)(tfbot|squad|randomchoice|tank|startwaveoutput|doneoutput|onbombdroppedoutput)\\b"
+					"match": "\\b(?i)(tfbot|squad|randomchoice|periodicspawn|onkilledoutput|mob|firstspawnoutput|eventchangeattributes|examplepopulation|lastspawnoutput|initwaveoutput|randomplacement|default|revertgatebotsbehavior|tank|startwaveoutput|doneoutput|onbombdroppedoutput|when)\\b"
 				}
 			]
 		},
@@ -83,7 +83,7 @@
 				},
 				{
 					"name": "support.class.spawner",
-					"match": "\\b(?i)(class|classicon|name|weaponrestrictions|item|skill|health|scale|attributes|itemname|autojumpmin|autojumpmax|teleportwhere|maxvisionrange)\\b"
+					"match": "\\b(?i)(action|addsentrybusterwhendamagedealtexceeds|addsentrybusterwhenkillcountexceeds|beginatwave|behaviormodifiers|class|classicon|count|description|desiredcount|lastspawnwarningsound|maxinterval|minimumseparation|mininterval|randomspawn|navareafilter|sentrygun|skin|sound|name|weaponrestrictions|item|skill|health|scale|attributes|itemname|autojumpmin|autojumpmax|teleportwhere|maxvisionrange)\\b"
 				},
 				{
 					"name": "keyword.token.popfile",
@@ -95,7 +95,7 @@
 			"patterns": [
 				{
 					"name": "entity.other.attribute-name.attributes.popfile",
-					"match": "\\b(?i)(miniboss|easy|normal|hard|expert|alwayscrit|usebosshealthbar|holdfireuntilfullreload|secondaryonly|primaryonly|meleeonly|autojump|spawnwithfullcharge|vaccinatorbullets|vaccinatorblast|vaccinatorfire|airchargeonly|teleporttohint)\\b"
+					"match": "\\b(?i)(miniboss|mobber|push|easy|normal|hard|expert|alwayscrit|usebosshealthbar|holdfireuntilfullreload|secondaryonly|primaryonly|meleeonly|autojump|spawnwithfullcharge|vaccinatorbullets|vaccinatorblast|vaccinatorfire|airchargeonly|teleporttohint|aggressive|alwaysfireweapon|becomespectatorondeath|blastimmune|bulletimmune|disabledodge|fireimmune|ignoreenemies|ignoreflag|parachute|projectileshield|removeondeath|retainbuildings|suppressfire)\\b"
 				},
 				{
 					"name": "entity.other.attribute-name.classes.popfile",

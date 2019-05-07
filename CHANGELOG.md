@@ -8,3 +8,7 @@
 ## 1.0.1
 
 - Added extension icon, repository to package.json
+
+## 1.1.0
+
+- Added all of the other, more esoteric key names to the highlighting list, including Tag, FirstSpawnOutput, InitWaveOutput, and others
