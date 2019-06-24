@@ -15,4 +15,4 @@
 
 ## 1.1.1
 
-- Added FirstSpawnWarningOutput to keyvalues list (missed that one at first).
+- Added FirstSpawnWarningSound to keyvalues list (missed that one at first).
