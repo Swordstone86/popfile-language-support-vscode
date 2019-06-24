@@ -12,3 +12,7 @@
 ## 1.1.0
 
 - Added all of the other, more esoteric key names to the highlighting list, including Tag, FirstSpawnOutput, InitWaveOutput, and others
+
+## 1.1.1
+
+- Added FirstSpawnWarningOutput to keyvalues list (missed that one at first).

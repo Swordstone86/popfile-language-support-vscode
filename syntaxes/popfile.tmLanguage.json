@@ -83,7 +83,7 @@
 				},
 				{
 					"name": "support.class.spawner",
-					"match": "\\b(?i)(action|addsentrybusterwhendamagedealtexceeds|addsentrybusterwhenkillcountexceeds|beginatwave|behaviormodifiers|class|classicon|count|description|desiredcount|lastspawnwarningsound|maxinterval|minimumseparation|mininterval|randomspawn|navareafilter|sentrygun|skin|sound|name|weaponrestrictions|item|skill|health|scale|attributes|itemname|autojumpmin|autojumpmax|teleportwhere|maxvisionrange)\\b"
+					"match": "\\b(?i)(action|addsentrybusterwhendamagedealtexceeds|addsentrybusterwhenkillcountexceeds|beginatwave|behaviormodifiers|class|classicon|count|description|desiredcount|firstspawnwarningsound|lastspawnwarningsound|maxinterval|minimumseparation|mininterval|randomspawn|navareafilter|sentrygun|skin|sound|name|weaponrestrictions|item|skill|health|scale|attributes|itemname|autojumpmin|autojumpmax|teleportwhere|maxvisionrange)\\b"
 				},
 				{
 					"name": "keyword.token.popfile",
